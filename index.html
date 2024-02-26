@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Portfolio.css">
+    <title>Personal Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/6f19913a1d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="head" id="head">
+    <div class="container">
+        <nav class="nav">
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#head">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="close1()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="open1()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Frontend Developer</p>
+            <h1>Hi, I'm <span>Pradhap</span> From <br>Cuddalore,Tamil Nadu</h1></h1>
+        </div>
+    </div>
+</div>
+<!---------------------------about-------------------------> 
+<div class="about" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="Profile.jpeg">
+            </div>
+            <div class="about-col2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi, I'm Pradhap From Cuddalore, I Completed My UG In Bachelor Of Engineering In The Feild Of Mechanical Engineering in Sri Ramakrishna Engineering College, Coimbatore In The Year Of 2022.Then  I Done A Python Full Stack Developer Course and Doing My six Month internship in Uniq Technology,Coimbatore.</p>
+                
+                <div class="tab-tittle">
+                    <div class="tab-links active-link" onclick="show('skills')">Skills</div>
+                    <div class="tab-links" onclick="show('exp')">Experince</div>
+                    <div class="tab-links" onclick="show('edu')">Education</div>
+                </div>
+                <div class="tab-contents active-skill" id="skills">
+                    <ul>
+                        <li><span>Web Design</span><br>Designing web interface using HTML, CSS, JavaScript</li>
+                        <li><span>Web Development</span><br>Web App Development using HTML, CSS, JavaScript, React Js, Django Framework, Flask, MySql</li>
+                        <li><span>Programmig Language</span><br>Python</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="exp">
+                    <ul>
+                        <li><span>2023-Current</span><br>Internship in Python Full Stack Developer At Uniq Technology, Coimbatore</li>
+                        <li><span>2022-2022</span><br>Internship in Product Designing At Randall Medical Technology Pvt Ltd, Coimbatore</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="edu">
+                    <ul>
+                        <li><span>2023</span><br>Python Full Stack Developer From Uniq Technology, Coimbatore</li>
+                        <li><span>2022</span><br>PPMD From CIPET, Madurai</li>
+                        <li><span>2022</span><br>BE-Mechanical Engineering From Sri Ramakrishna Engineering College, Coimbatore</li>
+                        <li><span>2018</span><br>HSC From SRM Muthamizhl Hr Sec School, Salem</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------services-------- -->
+<div class="services" id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Design a best look webpage for the company or a customer by using a tool like HTML, CSS, JavaScript.
+                </p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Web App Development</h2>
+                <p>Develop and design a fuctional application and login page for customer or the company by using a tool like HTML, CSS, JavaScript, React, Flask, Django Framework and MySQL.
+                </p>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="work-container" id="work">
+    <div class="container">
+        <h1>My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Work 1.png">
+                <div class="layer">
+                    <h3>Events</h3>
+                    <p>The Webpage is Used for Booking Events and Booking Products From Myntra Web Page</p>
+                </div>
+            </div>
+            <div div class="work">
+                <img src="Work 2.png">
+                <div class="layer">
+                    <h3>Students Details</h3>
+                    <p>The Webpage is Used in Schools For Entering Students Marks and Their Details and Also Get their Total and Grade Atuomatically</p>
+                </div>
+            </div>
+            <div div class="work">
+                <img src="Work 3.png">
+                <div class="layer">
+                    <h3>Sticky Notes</h3>
+                    <p>The Webpage is Used For Take Fhort Notes and Note any Important Things To Remember</p>
+                </div>
+            </div>  
+        </div>
+    </div>
+</div>
+<!-- -------------------------------contact----------------------- -->
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>pradhapkumar43@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-9047161231</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/pradhap-developer"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/i_am_pradhap"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/PradhapjersyNo4"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.facebook.com/pradhap.d.946"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="Pradhap-Frondend-Developer.pdf" download class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Enter Your Name" required>
+                    <input type="email" name="Email" placeholder="Enter YourEmail" required>
+                    <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+                <span id="sub"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyrights">
+    </div>
+</div>
+<script src="Portfolio.js"></script>
+</body>
+</html>
